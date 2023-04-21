@@ -11,6 +11,7 @@ module.exports = {
     colors:{
       'colorNavBar': '#303030;',
       'colorTextNavbar': '#ffffff;'
+      
     }
 
   },

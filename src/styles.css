@@ -21,6 +21,11 @@ font-family: "Oleo Script";
 
 }
 
+.NavRectangle{
+    width: 41px;
+height: 5px;
+background-color: #7b6b63;
+}
 
 .BannerSubtitle{
     font-size: 24px;
@@ -40,17 +45,210 @@ text-transform: uppercase;
 color: #ffffff;
 font-family: "Raleway";
 }
+
+.BannerText span{
+color: gray;
+}
+
+
 .ButtonBanner{
-opacity: 0.102;
+opacity: 0.50;
 width: 264px;
 height: 60px;
 border-radius: 3px;
 background-color: rgba(255, 255, 255, 0.386);
+
 }
-.ButtonText{
+
+.ButtonBanner:hover{
+    background-color: rgba(255,255,255,0.10196078431372549);
+    border: 2px solid #ffffff;
+}
+
+.ButtonContend{
 font-size: 16px;
 letter-spacing: 2px;
 line-height: 30px;
 text-transform: uppercase;
 font-family: "Raleway";
+color: #ffffff;
+opacity: 1.50;
+}
+
+.ButtonDownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerText{
+margin-left: 350px;
+}
+
+.hero-section {
+    background-image: url("../public/img/banner-3.png");
+    background-size: auto 770px; 
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 770px;
+    overflow: hidden;
+    
+
+  }
+
+  .homepage-services{
+    text-align: center;
+    align-items: center;
+  }
+
+
+  .ServicesTitle{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #7b6c63;
+    font-weight: 600;
+    font-family: "Raleway";
+    
+  }
+
+  .Services-Descrip{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Raleway";
+    text-align: center;
+    
+  }
+
+  .ColFormat{
+    text-align: center;
+    
+  }
+
+  .Services-Subtitle{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #363636;
+    font-family: "Raleway";
+  }
+
+  .Services-Text{
+    width: 370px;
+    height: 104px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #949494;
+    font-family: "Raleway";
+ 
+    
+    
+  }
+  
+  .iconServices{
+    font-size: 30px;
+letter-spacing: 2px;
+line-height: 17px;
+text-transform: uppercase;
+color: #7b6c63;
+font-family: "Font Awesome";
+  }
+
+
+  .BlogTitle{
+    text-align: center;
+    font-size: 40px;
+letter-spacing: 2px;
+line-height: 48px;
+text-transform: uppercase;
+color: #7b6c63;
+font-weight: 600;
+font-family: "Raleway";
+
+
+display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+
+  .LineBlog{
+    width: 76px;
+    height: 6px;
+    background-color: #7b6c63;
+    align-items: center;
+    text-align: center;
+  }
+
+  .BlogText{
+    font-size: 18px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #212121;
+font-family: "Raleway";
+text-align: center;
+  }
+
+  .Blog-Date{
+    font-size: 16px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #7b6c63;
+font-weight: 500;
+font-family: "Raleway";
+}
+
+
+
+
+.Blog-Art-Title{
+font-size: 24px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #212121;
+font-family: "Raleway";
+}
+
+
+.Blog-Art-Text{
+font-size: 16px;
+letter-spacing: 1px;
+line-height: 30px;
+color: #949494;
+font-family: "Raleway";
+}
+
+.BlogCols{
+text-align: left;
+}
+
+.homepage-blog{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.ImgFormat{
+    width: 474px;
+height: 270px;
+background-color: #ebebeb;
+}
+
+.ColFormatBlogs{
+    max-width: 600px;
+}
+
+
+.homepage-contact{
+    width: 1919px;
+height: 604px;
+background-color: #f5f5f5;
 }

@@ -7,11 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-    <section class="flex flex-col min-h-screen bg-slate-800  bg-center bg-cover bg-fixed " style="background-image: url('./img/banner-3.png')">
+    
+
+      
 
     <nav id="site-header" class="bg-colorNavBar h-16 flex justify-center">
         <div class="navbar-container w-full max-w-6xl flex justify-between items-center">
@@ -20,7 +22,7 @@
           </div>
           <div class="siteHeaderNavbar">
             <ul class="flex space-x-4 Navbar-text">
-              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a> <div class="NavRectangle"></div></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Portafolios</a></li>
               <li><a href="#">Team</a></li>
@@ -30,29 +32,158 @@
           </div>
         </div>
       </nav>
-      
-    <div class="flex-1 flex items-center">
-      <div class="text-center mx-auto">
-        <h1 class="BannerSubtitle">Grab Your Copy Of</h1>
-        <p class="BannerText">The Premium Quality PSD Template For free</p>
 
-        <div class="ButtonBanner">
-            <a class="ButtonText text-colorTextNavbar" href="">DOWNLOAD</a>
+      <section class="flex  hero-section justify-start">
+        
+        <div class="flex-1 flex items-center">
+          <div class="centerText">
+            <p class="BannerSubtitle">Grab Your Copy Of</p>
+            <h1 class="BannerText mt-5">The <span> Premium</span> Quality 
+              <br> PSD Template For <span>free</span> </h1>
+              <br>
+              <button class="ButtonBanner mt-5">
+                <div class="ButtonContend">
+                  <a href="">DOWNLOAD <i class="fa fa-download"></i> </a>
+                </div>
+              </button>
+          </div>
         </div>
-     
+      </section>
+      
+  <section class="homepage-services mt-10">
+    <div class="ServicesTitle text-center">
+      <h2>Services we provide</h2>
+    </div>
+    
+    <div class="Services-Descrip mt-7 text-center ">
+      <p class="ServicesParrafo">
+        Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <br>
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu <br>
+        feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+      </p>
+    </div>
+    
+    <div class="ServicesCols flex flex-wrap mt-20">
+
+      <div class="ColFormat flex-1 p-4">
+        <i class="fa fa-users iconServices"></i>
+        <h2 class="Services-Subtitle">Consultancy</h2>
+        <p class="Services-Text">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam</p>
+      </div>
+    
+      <div class="ColFormat flex-1 p-4">
+        <i class="fa fa-bullhorn iconServices"></i>
+        <h2 class="Services-Subtitle">Marketing</h2>
+        <p class="Services-Text">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam</p>
+      </div>
+    
+      <div class="ColFormat flex-1 p-4">
+        <i class="fa fa-flask iconServices"></i>
+        <h2 class="Services-Subtitle">Research</h2>
+        <p class="Services-Text">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam</p>
       </div>
     </div>
+    
   </section>
+    
+<section class="homepage-blog">
 
+  <div class="BlogTitle">
+    <h1>Our Blog</h1>
+
+    <div class="LineBlog mt-10">
+    </div>
+
+  </div>
+
+  <div class="BlogTextContainer mt-10">
+    <p class="BlogText">Nam liber tempor cum soluta nobis eleifend option <br>
+      congue nihil imperdiet doming id quod mazim 
+      </p>
+  </div>
+
+  
+
+
+
+<div class=" flex justify-center items-center mt-10">
+
+  <div class="BlogCols flex flex-wrap text-center mt-10">
+    <div class="ColFormatBlogs flex-1 text-center">
+      <div class="ImgFormat mx-auto">
+        <img src="img/Img-Camera.png" alt="" class="max-w-full">
+      </div>
+    </div>
+    <div class="ColFormatBlogs flex-1">
+      <p class="Blog-Date">10 April 2014</p>
+      <h2 class="Blog-Art-Title">Typi non habent claritatem insitam</h2>
+      <p class="Blog-Art-Text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+        esse molestie consequat, vel illum dolore eu feugiat nulla 
+        facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+    </div>
+  </div>
+</div>
+
+
+<div class=" flex justify-center items-center">
+  <div class="BlogCols flex flex-wrap text-center mt-10">
+    <div class="ColFormatBlogs flex-1">
+      <p class="Blog-Date text-right">20 March 2014</p>
+      <h2 class="Blog-Art-Title text-right">Typi non habent claritatem insitam</h2>
+      <p class="Blog-Art-Text text-right">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+        esse molestie consequat, vel illum dolore eu feugiat nulla 
+        facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+    </div>
+    <div class="ColFormatBlog flex-1 text-center">
+      <div class="ImgFormat mx-auto">
+        <img src="img/Img-Camera.png" alt="" class="max-w-full">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class=" flex justify-center items-center">
+  <div class="BlogCols flex flex-wrap text-center mt-10">
+    <div class="ColFormatBlogs flex-1 text-center">
+      <div class="ImgFormat mx-auto">
+        <img src="img/Img-Camera.png" alt="" class="max-w-full">
+      </div>
+    </div>
+    <div class="ColFormatBlogs flex-1">
+      <p class="Blog-Date">10 January 2014</p>
+      <h2 class="Blog-Art-Title">Typi non habent claritatem insitam</h2>
+      <p class="Blog-Art-Text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+        esse molestie consequat, vel illum dolore eu feugiat nulla 
+        facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+    </div>
+  </div>
+</div>
+</section>
+<section class="homepage-contact mt-20">
+
+
+
+
+
+
+
+
+
+
+
+</section>
     
-<section class="homepage-banner"></section>
-<section class="homepage-services"></section>
-<section class="homepage-blog"></section>
-<section class="homepage-contact"></section>
-    
+<br>
+
+
 
 <footer id="site-footer"></footer>
 
     
 </body>
+
+  <script src="../public/index.js"></script>  
+
+
 </html>
