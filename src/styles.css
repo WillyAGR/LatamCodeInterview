@@ -248,7 +248,179 @@ background-color: #ebebeb;
 
 
 .homepage-contact{
-    width: 1919px;
+    
 height: 604px;
 background-color: #f5f5f5;
 }
+
+
+.ContactTitle{
+font-size: 40px;
+letter-spacing: 2px;
+line-height: 48px;
+text-transform: uppercase;
+color: #7b6c63;
+font-weight: 600;
+font-family: "Raleway";
+text-align: center;
+}
+
+.ContactText{
+font-size: 16px;
+letter-spacing: 2px;
+line-height: 25px;
+color: #5b5b5b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.ContactName{
+  width: 370px;
+  height: 4px;
+  background-color: #242424;
+}
+
+.FormFormat{
+  width: 370px;
+  
+  border:0 ;
+  background-color: #f5f5f5;
+}
+
+
+.ContactEmail{
+  width: 371px;
+  height: 4px;
+  background-color: #242424;
+}
+
+.ContactMessage{
+  width: 779px;
+height: 4px;
+background-color: #242424;
+}
+
+.ContactBar{
+  width: 779px;
+height: 1px;
+background-color: #242424;
+}
+
+.FormantMessage{
+  width: 779px;
+}
+
+.ButtonContact{
+
+width: 170px;
+height: 45px;
+background-color: rgba(0,192,240,0);
+}
+.ButtonContact:hover{
+ 
+  width: 170px;
+  height: 45px;
+  background-color: rgba(0,192,240,0);
+  border: 2px solid #000000;}
+
+
+  .ButtonTextContact{
+    font-size: 18px;
+letter-spacing: 1px;
+line-height: 25px;
+color: #000000;
+font-weight: 500;
+font-family: "Raleway";
+text-align: center;
+  }
+
+
+
+  .FooterContainer{
+ 
+height: 410px;
+background-color: #222222;
+  }
+
+  .FooterCopy{
+    height: 70px;
+background-color: #1c1c1c;
+  }
+
+  .CopyText{
+    font-size: 16px;
+letter-spacing: 2px;
+line-height: 25px;
+color: #595959;
+font-weight: 300;
+font-family: "Raleway";
+  }
+
+
+  .FooterLogo{
+    width: 272px;
+    font-size: 48px;
+line-height: 30px;
+color: #7b6c63;
+font-weight: 400;
+font-family: "Oleo Script";
+  }
+
+  .FooterText{
+width: 272px;
+height: 273px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #929292;
+font-family: "Raleway";
+  }
+
+  .FooterSubtitles{
+    font-size: 18px;
+letter-spacing: 2px;
+line-height: 25px;
+text-transform: uppercase;
+color: #c2c2c2;
+font-family: "Raleway";
+  }
+
+
+  .FooterDates{
+    width: 272px;
+    height: 55px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #5f5f5f;
+    font-family: "Raleway";
+    text-align: left;
+  }
+
+  .FooterTexts{
+    width: 272px;
+    height: 34px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #929292;
+    font-family: "Raleway";
+    text-align: left;
+  }
+
+  .FooterLine{
+    opacity: 0.102;
+width: 268px;
+height: 1px;
+background-color: #ffffff;
+  }
+
+  .FooterTweets{
+  font-size: 10px;
+letter-spacing: 1px;
+line-height: 25px;
+color: #5f5f5f;
+font-family: "Raleway";
+  }
+
