@@ -139,16 +139,13 @@ margin-left: 350px;
   }
 
   .Services-Text{
-    width: 370px;
+
     height: 104px;
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 24px;
     color: #949494;
     font-family: "Raleway";
- 
-    
-    
   }
   
   .iconServices{
@@ -243,7 +240,7 @@ background-color: #ebebeb;
 }
 
 .ColFormatBlogs{
-    max-width: 600px;
+    max-width: 550px;
 }
 
 

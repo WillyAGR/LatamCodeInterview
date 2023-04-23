@@ -525,6 +525,10 @@ video {
   margin-left: 2.5rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -541,16 +545,8 @@ video {
   margin-top: 1.75rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .flex {
   display: flex;
-}
-
-.grid {
-  display: grid;
 }
 
 .h-16 {
@@ -571,10 +567,6 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-wrap {
@@ -750,7 +742,6 @@ video {
 }
 
 .Services-Text{
-  width: 370px;
   height: 104px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -840,7 +831,7 @@ video {
 }
 
 .ColFormatBlogs{
-  max-width: 600px;
+  max-width: 550px;
 }
 
 .homepage-contact{
