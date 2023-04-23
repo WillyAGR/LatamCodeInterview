@@ -16,4 +16,8 @@ var images = [
     }
     heroSection.style.backgroundImage = "url('" + images[currentImage] + "')";
   }
+
+
+  
+  ;
   

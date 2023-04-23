@@ -549,6 +549,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -589,12 +593,6 @@ video {
   justify-content: space-between;
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .bg-colorNavBar {
   background-color: #303030;;
 }
@@ -614,6 +612,8 @@ video {
 .text-right {
   text-align: right;
 }
+
+/*NAVBAR*/
 
 .Navbar-text{
   font-size: 12px;
@@ -637,6 +637,8 @@ video {
   height: 5px;
   background-color: #7b6b63;
 }
+
+/*HeroSection*/
 
 .BannerSubtitle{
   font-size: 24px;
@@ -704,6 +706,8 @@ video {
   overflow: hidden;
 }
 
+/*Services*/
+
 .homepage-services{
   text-align: center;
   align-items: center;
@@ -758,6 +762,8 @@ video {
   color: #7b6c63;
   font-family: "Font Awesome";
 }
+
+/*Blog*/
 
 .BlogTitle{
   text-align: center;
@@ -833,6 +839,8 @@ video {
 .ColFormatBlogs{
   max-width: 550px;
 }
+
+/*Contact*/
 
 .homepage-contact{
   height: 604px;
@@ -915,6 +923,8 @@ video {
   font-family: "Raleway";
   text-align: center;
 }
+
+/*Footer*/
 
 .FooterContainer{
   height: 410px;
@@ -1001,3 +1011,381 @@ video {
   font-family: "Raleway";
 }
 
+/*Movil */
+
+/* Estilos para el botón de la hamburguesa */
+
+.Navbar-toggler {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.icon-menu {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('../public/img/menu.png');
+  background-size: cover;
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+  .Navbar-text {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+  }
+
+  .NavRectangle {
+    display: none;
+  }
+
+  .Navbar-text.active {
+    display: block;
+  }
+
+  /*Banner Movil*/
+
+  .BannerSubtitle{
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    margin-top: 10px;
+  }
+
+  .BannerText{
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Raleway";
+  }
+
+  .BannerText span{
+    color: gray;
+  }
+
+  .ButtonBanner{
+    opacity: 0.50;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.386);
+  }
+
+  .ButtonBanner:hover{
+    background-color: rgba(255,255,255,0.10196078431372549);
+    border: 2px solid #ffffff;
+  }
+
+  .ButtonContend{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    color: #ffffff;
+    opacity: 1.50;
+  }
+
+  .ButtonDownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .centerText{
+    margin-left: 30px;
+  }
+
+  .hero-section {
+    background-image: url("../public/img/banner-3.png");
+    background-size: auto 340px;
+    background-repeat: no-repeat;
+    max-height: 300px;
+  }
+
+  .BannerMovil{
+    align-items: start;
+  }
+}
+
+/*Cellphone*/
+
+@media (max-width: 350px) {
+  .Navbar-text {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+  }
+
+  .NavRectangle {
+    display: none;
+  }
+
+  .Navbar-text.active {
+    display: block;
+  }
+
+  /*Banner Movil*/
+
+  .BannerSubtitle{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    margin-top: 10px;
+  }
+
+  .BannerText{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Raleway";
+  }
+
+  .BannerText span{
+    color: gray;
+  }
+
+  .ButtonBanner{
+    opacity: 0.50;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.386);
+  }
+
+  .ButtonBanner:hover{
+    background-color: rgba(255,255,255,0.10196078431372549);
+    border: 2px solid #ffffff;
+  }
+
+  .ButtonContend{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    color: #ffffff;
+    opacity: 1.50;
+  }
+
+  .ButtonDownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .centerText{
+    margin-left: 30px;
+  }
+
+  .hero-section {
+    background-image: url("../public/img/banner-3.png");
+    background-size: auto 340px;
+    background-repeat: no-repeat;
+    max-height: 300px;
+  }
+
+  .BannerMovil{
+    align-items: start;
+  }
+
+  /*---------SERVICES-----------*/
+
+  .homepage-services{
+    text-align: center;
+    align-items: center;
+  }
+
+  .ServicesTitle{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #7b6c63;
+    font-weight: 600;
+    font-family: "Raleway";
+  }
+
+  .Services-Descrip{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Raleway";
+    text-align: center;
+  }
+
+  .ColFormat{
+    text-align: center;
+  }
+
+  .ServicesCols{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Services-Subtitle{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #363636;
+    font-family: "Raleway";
+  }
+
+  .Services-Text{
+    height: 104px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #949494;
+    font-family: "Raleway";
+  }
+
+  .iconServices{
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #7b6c63;
+    font-family: "Font Awesome";
+  }
+
+  /*-----------BLOG------------*/
+
+  .BlogTitle{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #7b6c63;
+    font-weight: 600;
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .LineBlog{
+    width: 76px;
+    height: 6px;
+    background-color: #7b6c63;
+    align-items: center;
+    text-align: center;
+  }
+
+  .BlogText{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #212121;
+    font-family: "Raleway";
+    text-align: center;
+  }
+
+  .Blog-Date{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #7b6c63;
+    font-weight: 500;
+    font-family: "Raleway";
+  }
+
+  .Blog-Art-Title{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #212121;
+    font-family: "Raleway";
+  }
+
+  .Blog-Art-Text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #949494;
+    font-family: "Raleway";
+  }
+
+  .BlogCols{
+    text-align: left;
+  }
+
+  .homepage-blog{
+    text-align: center;
+    align-items: center;
+  }
+
+  .MovTextLeft{
+    text-align: start;
+  }
+
+  .ImgFormat{
+    width: 300px;
+    height: auto;
+    background-color: #ebebeb;
+  }
+
+  .ColFormatBlogs{
+    max-width: 550px;
+    margin: 10px;
+  }
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}

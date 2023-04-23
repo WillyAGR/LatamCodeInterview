@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interview</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,32 +13,36 @@
 
     
 
-    <nav id="site-header" class="bg-colorNavBar h-16 flex justify-center">
-        <div class="navbar-container w-full max-w-6xl flex justify-between items-center">
-          <div class="navbar-brand">
-            <a href="#" class="Navbar-brand-logo ">Mairala</a>
-          </div>
-          <div class="siteHeaderNavbar">
-            <ul class="flex space-x-4 Navbar-text">
-              <li><a href="#">Home</a> <div class="NavRectangle"></div></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Portafolios</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Blogs</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav id="site-header" class="bg-colorNavBar h-16 flex justify-center">
+    <div class="navbar-container w-full max-w-6xl flex justify-between items-center">
+      <div class="navbar-brand">
+        <a href="#" class="Navbar-brand-logo ">Mairala</a>
+      </div>
+      <div class="siteHeaderNavbar">
+        <button class="Navbar-toggler md:hidden focus:outline-none">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="hidden md:flex md:space-x-4 Navbar-text">
+          <li><a href="#">Home</a> <div class="NavRectangle"></div></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portafolios</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
 
       <section class="flex  hero-section justify-start">
         
-        <div class="flex-1 flex items-center">
+        <div class="flex-1 flex items-center BannerMovil">
           <div class="centerText">
             <p class="BannerSubtitle">Grab Your Copy Of</p>
             <h1 class="BannerText mt-5">The <span> Premium</span> Quality 
               <br> PSD Template For <span>free</span> </h1>
-              <br>
+              
               <button class="ButtonBanner mt-5">
                 <div class="ButtonContend">
                   <a href="">DOWNLOAD <i class="fa fa-download"></i> </a>
@@ -126,13 +130,13 @@
 <div class=" flex justify-center items-center">
   <div class="BlogCols flex flex-wrap text-center mt-10">
     <div class="ColFormatBlogs flex-1">
-      <p class="Blog-Date text-right">20 March 2014</p>
-      <h2 class="Blog-Art-Title text-right">Typi non habent claritatem insitam</h2>
-      <p class="Blog-Art-Text text-right">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+      <p class="Blog-Date text-right MovTextLeft">20 March 2014</p>
+      <h2 class="Blog-Art-Title text-right MovTextLeft">Typi non habent claritatem insitam</h2>
+      <p class="Blog-Art-Text text-right MovTextLeft">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
         esse molestie consequat, vel illum dolore eu feugiat nulla 
         facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
     </div>
-    <div class="ColFormatBlog flex-1 text-center">
+    <div class="ColFormatBlog flex-1 text-center ImgMovil">
       <div class="ImgFormat mx-auto">
         <img src="img/Img-Camera.png" alt="" class="max-w-full">
       </div>
@@ -291,7 +295,15 @@
 </body>
 
   <!--<script src="../public/index.js"></script>   -->
+<script>
 
+const navbarToggler = document.querySelector('.Navbar-toggler');
+const navbarMenu = document.querySelector('.Navbar-text');
+  
+  navbarToggler.addEventListener('click', () => {
+    navbarMenu.classList.toggle('active');
+  });
+  </script>
 
 
 </html>
