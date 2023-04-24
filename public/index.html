@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interview</title>
+    <meta name="description" content="Latamcode Front End Developet Test using HTML and Tailwindcss">
+    <meta name="keywords" content="HTML,CSS,JS Interview,Frontend">
+    <meta name="author" content="William Gómez Rojas">
+    <title>Latamcode Front End Developet Test</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,10 +22,11 @@
         <a href="#" class="Navbar-brand-logo ">Mairala</a>
       </div>
       <div class="siteHeaderNavbar">
-        <button class="Navbar-toggler md:hidden focus:outline-none">
+        <button class="Navbar-toggler
+        lg:hidden focus:outline-none">
           <span class="icon-menu"></span>
         </button>
-        <ul class="hidden md:flex md:space-x-4 Navbar-text">
+        <ul class="hidden lg:flex md:space-x-4 Navbar-text">
           <li><a href="#">Home</a> <div class="NavRectangle"></div></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Portafolios</a></li>
@@ -113,7 +117,7 @@
   <div class="BlogCols flex flex-wrap text-center mt-10">
     <div class="ColFormatBlogs flex-1 text-center">
       <div class="ImgFormat mx-auto">
-        <img src="img/Img-Camera.png" alt="" class="max-w-full">
+        <img src="img/Img-Camera.png" alt="Camera-1" title="Camera-1" class="max-w-full">
       </div>
     </div>
     <div class="ColFormatBlogs flex-1">
@@ -138,7 +142,7 @@
     </div>
     <div class="ColFormatBlog flex-1 text-center ImgMovil">
       <div class="ImgFormat mx-auto">
-        <img src="img/Img-Camera.png" alt="" class="max-w-full">
+        <img src="img/Img-Camera.png" alt="Camera-2" title="Camera-2" class="max-w-full">
       </div>
     </div>
   </div>
@@ -149,7 +153,7 @@
   <div class="BlogCols flex flex-wrap text-center mt-10">
     <div class="ColFormatBlogs flex-1 text-center">
       <div class="ImgFormat mx-auto">
-        <img src="img/Img-Camera.png" alt="" class="max-w-full">
+        <img src="img/Img-Camera.png" alt="Camera-3" title="Camera-3" class="max-w-full">
       </div>
     </div>
     <div class="ColFormatBlogs flex-1">
@@ -170,7 +174,7 @@
   </div>
 
 
-<div class="flex justify-center items-center mt-10">
+<div class="flex justify-center items-center mt-10 container-contact">
 
   <div class="Name">
   <div class="ContactName"></div>
@@ -209,7 +213,7 @@
 </section>
 
 
-<footer id="site-footer">
+<footer id="site-footer" class="footer">
 
 <div class="FooterContainer flex justify-center items-center ">
 
@@ -242,7 +246,7 @@
 </div>
 
 
-<div class="FooterCol1 flex-1">
+<div class="FooterCol1 flex-1 FooterMovil">
   <h2 class="FooterSubtitles text-left">Twiter Feeds</h2>
 
   <div class="RecentsPost mt-5">
@@ -265,10 +269,10 @@
 </div>
 
 
-  <div class="FooterCol1 flex-1">
+
+  <div class="FooterCol1 flex-1 FooterMovil">
     <h2 class="FooterSubtitles text-left">Our Address</h2>
-    
-    <p class="FooterText text-left mt-10">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta 
+    <p class="FooterText text-left mt-10 ">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta 
       <br>
       <br>
       <i class="fa fa-map-marker" aria-hidden="true"></i>  Moonshine St. 14/05 Light, Jupiter <br>
@@ -294,16 +298,8 @@
     
 </body>
 
-  <!--<script src="../public/index.js"></script>   -->
-<script>
+  <script src="../public/index.js"></script>  
 
-const navbarToggler = document.querySelector('.Navbar-toggler');
-const navbarMenu = document.querySelector('.Navbar-text');
-  
-  navbarToggler.addEventListener('click', () => {
-    navbarMenu.classList.toggle('active');
-  });
-  </script>
 
 
 </html>

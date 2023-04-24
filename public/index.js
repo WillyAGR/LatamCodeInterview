@@ -18,6 +18,14 @@ var images = [
   }
 
 
+  const navbarToggler = document.querySelector('.Navbar-toggler');
+  const navbarMenu = document.querySelector('.Navbar-text');
   
-  ;
+  navbarToggler.addEventListener('click', () => {
+    navbarMenu.classList.toggle('active');
+  });
+
+  
+
+  
   
