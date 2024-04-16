@@ -1,1 +1,1453 @@
-a,hr{color:inherit}progress,sub,sup{vertical-align:baseline}blockquote,body,dd,dl,fieldset,figure,h1,h2,h3,h4,h5,h6,hr,menu,ol,p,pre,ul{margin:0}fieldset,legend,menu,ol,ul{padding:0}*,::after,::before{box-sizing:border-box;border:0 solid currentColor;--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal}body{line-height:inherit}hr{height:0;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}menu,ol,ul{list-style:none}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}.hidden,[hidden]{display:none}.BlogTitle,.flex{display:flex}::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.mx-auto{margin-left:auto;margin-right:auto}.ml-10{margin-left:2.5rem}.ml-20{margin-left:5rem}.mt-10{margin-top:2.5rem}.mt-20{margin-top:5rem}.mt-5{margin-top:1.25rem}.mt-7{margin-top:1.75rem}.h-16{height:4rem}.w-full{width:100%}.max-w-6xl{max-width:72rem}.max-w-full{max-width:100%}.flex-1{flex:1 1 0%}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.bg-colorNavBar{background-color:#303030}.p-4{padding:1rem}.BlogCols,.text-left{text-align:left}.BlogText,.BlogTitle,.ColFormat,.LineBlog,.Services-Descrip,.text-center{text-align:center}.text-right{text-align:right}.Navbar-text{font-size:12px;letter-spacing:1px;line-height:30px;text-transform:uppercase;color:#fff;font-family:Raleway}.BannerSubtitle,.BannerText,.ButtonContend{letter-spacing:2px;color:#fff;text-transform:uppercase}.Navbar-brand-logo{font-size:48px;line-height:30px;color:#fff;font-weight:400;font-family:"Oleo Script"}.BannerSubtitle,.BannerText{font-family:Raleway}.NavRectangle{width:41px;height:5px;background-color:#7b6b63}.BannerSubtitle{font-size:24px;line-height:30px;font-weight:500}.BannerText{font-size:66px;line-height:75px}.BannerText span{color:gray}.ButtonBanner{opacity:.5;width:264px;height:60px;border-radius:3px;background-color:rgba(255,255,255,.386)}.ButtonBanner:hover{background-color:rgba(255,255,255,.10196078431372549);border:2px solid #fff}.ButtonContend{font-size:16px;line-height:30px;font-family:Raleway;opacity:1.5}.Services-Descrip,.Services-Subtitle,.Services-Text,.ServicesTitle{letter-spacing:1px;font-family:Raleway}.ButtonDownload{display:flex;justify-content:center;align-items:center}.centerText{margin-left:350px}.hero-section{background-image:url("../public/img/banner-3.png");background-size:auto 770px;background-position:center top;background-attachment:fixed;background-repeat:no-repeat;height:770px;overflow:hidden}.homepage-blog,.homepage-services{text-align:center;align-items:center}.ServicesTitle{font-size:24px;line-height:30px;text-transform:uppercase;color:#7b6c63;font-weight:600}.Services-Descrip{font-size:16px;line-height:30px;color:#000}.Services-Subtitle{font-size:18px;line-height:30px;text-transform:uppercase;color:#363636}.Services-Text{height:104px;font-size:16px;line-height:24px;color:#949494}.BlogTitle,.iconServices{letter-spacing:2px;color:#7b6c63;text-transform:uppercase}.iconServices{font-size:30px;line-height:17px;font-family:"Font Awesome"}.BlogTitle{font-size:40px;line-height:48px;font-weight:600;font-family:Raleway;flex-direction:column;align-items:center}.Blog-Art-Text,.Blog-Art-Title,.Blog-Date,.BlogText{letter-spacing:1px;line-height:30px;font-family:Raleway}.LineBlog{width:76px;height:6px;background-color:#7b6c63;align-items:center}.BlogText{font-size:18px;color:#212121}.Blog-Date{font-size:16px;color:#7b6c63;font-weight:500}.Blog-Art-Title{font-size:24px;color:#212121}.Blog-Art-Text{font-size:16px;color:#949494}.ImgFormat{width:474px;height:270px;background-color:#ebebeb}.ColFormatBlogs{max-width:550px}.homepage-contact{height:604px;background-color:#f5f5f5}.ContactTitle{font-size:40px;letter-spacing:2px;line-height:48px;text-transform:uppercase;color:#7b6c63;font-weight:600;font-family:Raleway;text-align:center}.ContactText{font-size:16px;letter-spacing:2px;line-height:25px;color:#5b5b5b;font-weight:400;font-family:"Open Sans"}.ButtonTextContact,.CopyText{line-height:25px;font-family:Raleway}.ContactName{width:370px;height:4px;background-color:#242424}.FormFormat{width:370px;border:0;background-color:#f5f5f5}.ContactBar,.ContactEmail,.ContactMessage{background-color:#242424}.ContactEmail{width:371px;height:4px}.ContactBar,.FormantMessage{width:779px}.ContactMessage{width:779px;height:4px}.ContactBar{height:1px}.ButtonContact,.ButtonContact:hover{width:170px;height:45px;background-color:rgba(0,192,240,0)}.ButtonContact:hover{border:2px solid #000}.ButtonTextContact{font-size:18px;letter-spacing:1px;color:#000;font-weight:500;text-align:center}.FooterContainer{height:410px;background-color:#222}.FooterCopy{height:70px;background-color:#1c1c1c}.CopyText{font-size:16px;letter-spacing:2px;color:#595959;font-weight:300}.FooterLogo{width:272px;font-size:48px;line-height:30px;color:#7b6c63;font-weight:400;font-family:"Oleo Script"}.FooterText{width:250px;height:273px;font-size:14px;letter-spacing:1px;line-height:24px;color:#929292;font-family:Raleway}.FooterDates,.FooterTexts{width:272px;text-align:left}.FooterSubtitles{font-size:18px;letter-spacing:2px;line-height:25px;text-transform:uppercase;color:#c2c2c2;font-family:Raleway}.FooterDates{height:55px;font-size:10px;letter-spacing:1px;line-height:20px;text-transform:uppercase;color:#5f5f5f;font-family:Raleway}.FooterTexts,.FooterTweets{letter-spacing:1px;line-height:25px;font-family:Raleway}.FooterTexts{height:34px;font-size:14px;color:#929292}.FooterLine{opacity:.102;width:268px;height:1px;background-color:#fff}.FooterTweets{font-size:10px;color:#5f5f5f}.Navbar-toggler{border:none;background-color:transparent;cursor:pointer;padding:.5rem}.icon-menu{display:block;width:1.5rem;height:1.5rem;background-image:url('../public/img/menu.png');background-size:cover}@media screen and (max-width:550px){.BlogTitle,.ContactTitle,.FooterDates,.FooterSubtitles,.Services-Subtitle,.ServicesTitle,.iconServices{text-transform:uppercase}.BlogText,.BlogTitle,.ColFormat,.LineBlog,.Services-Descrip{text-align:center}.Navbar-text{position:absolute;top:4rem;left:0;right:0;background-color:#fff;padding:1rem;border:1px solid #d3d3d3;box-shadow:0 2px 8px rgba(0,0,0,.1);flex-direction:column;align-items:center;color:#000}.BannerSubtitle,.BannerText,.ButtonContend{letter-spacing:2px;color:#fff;text-transform:uppercase}.NavRectangle{display:none}.Navbar-text.active{display:block}.BannerSubtitle{font-size:15px;line-height:30px;font-weight:500;font-family:Raleway;margin-top:10px}.BannerText{font-size:20px;line-height:75px;font-family:Raleway}.BannerText span{color:gray}.ButtonBanner{opacity:.5;width:200px;height:50px;border-radius:3px;margin:0;background-color:rgba(255,255,255,.386)}.ButtonBanner:hover{background-color:rgba(255,255,255,.10196078431372549);border:2px solid #fff}.ButtonContend{font-size:16px;line-height:30px;font-family:Raleway;opacity:1.5}.Services-Descrip,.Services-Subtitle,.Services-Text,.ServicesTitle{letter-spacing:1px;font-family:Raleway}.ButtonDownload{display:flex;justify-content:center;align-items:center}.centerText{margin-left:30px}.hero-section{background-image:url("../public/img/banner-3.png");background-size:auto 340px;background-repeat:no-repeat;max-height:300px}.BannerMovil{align-items:start}.homepage-blog,.homepage-services{text-align:center;align-items:center}.ServicesTitle{font-size:24px;line-height:30px;color:#7b6c63;font-weight:600}.Services-Descrip{font-size:12px;line-height:30px;color:#000}.ServicesCols{margin-top:10px;display:flex;flex-direction:column}.Services-Subtitle{font-size:14px;line-height:30px;color:#363636}.Services-Text{height:104px;font-size:16px;line-height:24px;color:#949494}.BlogTitle,.iconServices{font-size:30px;letter-spacing:2px;color:#7b6c63}.iconServices{line-height:17px;font-family:"Font Awesome"}.BlogTitle{line-height:48px;font-weight:600;font-family:Raleway;display:flex;flex-direction:column;align-items:center}.Blog-Art-Text,.Blog-Art-Title,.Blog-Date,.BlogText{letter-spacing:1px;line-height:30px;font-family:Raleway}.LineBlog{width:76px;height:6px;background-color:#7b6c63;align-items:center}.ContactBar,.FormFormat,.FormantMessage,.ImgFormat{width:300px}.BlogText{font-size:14px;color:#212121}.Blog-Art-Title,.Blog-Date{font-size:16px}.Blog-Date{color:#7b6c63;font-weight:500}.Blog-Art-Title{color:#212121}.Blog-Art-Text{font-size:14px;color:#949494}.BlogCols{text-align:left}.MovTextLeft{text-align:start}.ImgFormat{height:auto;background-color:#ebebeb}.ColFormatBlogs{max-width:550px;margin:10px}.Email,.FooterCol1:first-child{margin-left:0}.homepage-contact{height:500px;background-color:#f5f5f5}.Email{margin-top:15px}.ContactTitle{font-size:30px;letter-spacing:2px;line-height:48px;color:#7b6c63;font-weight:600;font-family:Raleway;text-align:center}.ContactText{font-size:16px;letter-spacing:2px;line-height:25px;color:#5b5b5b;font-weight:400;font-family:"Open Sans"}.ButtonTextContact,.CopyText{line-height:25px;font-family:Raleway}.container-contact{display:flex;flex-wrap:wrap}.ContactEmail,.ContactMessage,.ContactName{width:300px;height:4px;background-color:#242424}.FormFormat{border:0;background-color:#f5f5f5}.ContactBar{height:1px;background-color:#242424}.ButtonContact,.ButtonContact:hover{width:170px;height:45px;background-color:rgba(0,192,240,0)}.Message{justify-content:center;align-items:center;display:flex;flex-wrap:wrap}.ButtonContact:hover{border:2px solid #000}.ButtonTextContact{font-size:18px;letter-spacing:1px;color:#000;font-weight:500;text-align:center}.FooterCol1{flex:1;height:250px;margin-bottom:20px}.FooterCol1:last-child{margin-right:0}.FooterMovil{margin-top:55px}.FooterContainer{flex-wrap:wrap;height:auto;width:auto;background-color:#222;align-items:center;justify-content:center;text-align:center}.FooterCopy{height:70px;background-color:#1c1c1c}.CopyText{font-size:10px;letter-spacing:2px;color:#595959;font-weight:300}.FooterLogo{font-size:48px;line-height:30px;color:#7b6c63;font-weight:400;font-family:"Oleo Script";margin-top:15px;margin-left:10px;text-align:center}.FooterDates,.FooterText{font-size:10px;letter-spacing:1px}.FooterText{width:250px;height:273px;line-height:24px;color:#929292;font-family:Raleway;margin-top:10px;margin-left:10px}.FooterDates,.FooterTexts{width:272px;text-align:left;margin-left:10px}.FooterSubtitles{font-size:18px;letter-spacing:2px;line-height:25px;color:#c2c2c2;font-family:Raleway;margin-left:10px}.FooterDates{height:55px;line-height:20px;color:#5f5f5f;font-family:Raleway}.FooterTexts,.FooterTweets{font-size:10px;letter-spacing:1px;line-height:25px;font-family:Raleway}.FooterTexts{height:34px;color:#929292}.FooterLine{opacity:.102;width:300px;height:1px;margin-left:10px;background-color:#fff}.FooterTweets{color:#5f5f5f}.RecentsPost{margin-top:0;margin-bottom:10px}}@media screen and (min-width:600px) and (max-width:901px){.BlogTitle,.ContactTitle,.FooterDates,.FooterSubtitles{text-transform:uppercase}.Navbar-text.active,.icon-menu{display:block}.BlogText,.BlogTitle,.LineBlog{text-align:center}.Navbar-toggler{border:none;background-color:transparent;cursor:pointer;padding:.5rem}.icon-menu{width:1.5rem;height:1.5rem;background-image:url('../public/img/menu.png');background-size:cover}.Navbar-text{position:absolute;top:4rem;left:0;right:0;background-color:#fff;padding:1rem;border:1px solid #d3d3d3;box-shadow:0 2px 8px rgba(0,0,0,.1);flex-direction:column;align-items:center;color:#000;margin-right:10px}.BannerSubtitle,.BannerText,.ButtonContend{color:#fff;letter-spacing:2px;font-family:Raleway;text-transform:uppercase}.NavRectangle{display:none}.BannerSubtitle{font-size:15px;line-height:30px;font-weight:500;margin-top:10px}.BannerText{font-size:20px;line-height:75px}.BannerText span{color:gray}.ButtonBanner{opacity:.5;width:200px;height:50px;border-radius:3px;margin:0;background-color:rgba(255,255,255,.386)}.ButtonBanner:hover{background-color:rgba(255,255,255,.10196078431372549);border:2px solid #fff}.ButtonContend{font-size:16px;line-height:30px;opacity:1.5}.ButtonDownload{display:flex;justify-content:center;align-items:center}.centerText{margin-left:30px}.Email,.FooterCol1:first-child{margin-left:0}.hero-section{background-image:url("../public/img/banner-3.png");background-size:auto 340px;background-repeat:no-repeat;max-height:300px}.BannerMovil{align-items:start}.BlogTitle{font-size:30px;letter-spacing:2px;line-height:48px;color:#7b6c63;font-weight:600;font-family:Raleway;display:flex;flex-direction:column;align-items:center}.Blog-Art-Text,.Blog-Art-Title,.Blog-Date,.BlogText{letter-spacing:1px;line-height:30px;font-family:Raleway}.LineBlog{width:76px;height:6px;background-color:#7b6c63;align-items:center}.BlogText{font-size:18px;color:#212121}.Blog-Art-Title,.Blog-Date{font-size:16px}.Blog-Date{color:#7b6c63;font-weight:500}.Blog-Art-Title{color:#212121}.Blog-Art-Text{font-size:14px;color:#949494}.BlogCols{text-align:left;display:flex;flex-direction:column;align-items:center}.homepage-blog{text-align:center;align-items:center;margin-top:15%}.ImgFormat{width:474px;height:270px;background-color:#ebebeb}.ContactBar,.FormFormat,.FormantMessage{width:500px}.ColFormatBlogs{max-width:550px;display:flex;flex-direction:column;align-items:center}.homepage-contact{height:500px;background-color:#f5f5f5}.Email{margin-top:15px}.ContactTitle{font-size:30px;letter-spacing:2px;line-height:48px;color:#7b6c63;font-weight:600;font-family:Raleway;text-align:center}.ContactText{font-size:16px;letter-spacing:2px;line-height:25px;color:#5b5b5b;font-weight:400;font-family:"Open Sans"}.ButtonTextContact,.CopyText{line-height:25px;font-family:Raleway}.container-contact{display:flex;flex-wrap:wrap}.ContactEmail,.ContactMessage,.ContactName{width:500px;height:4px;background-color:#242424}.FormFormat{border:0;background-color:#f5f5f5}.ContactBar{height:1px;background-color:#242424}.ButtonContact,.ButtonContact:hover{width:170px;height:45px;background-color:rgba(0,192,240,0)}.Message{justify-content:center;align-items:center;display:flex;flex-wrap:wrap}.FooterContainer,.footer{background-color:#222}.ButtonContact:hover{border:2px solid #000}.ButtonTextContact{font-size:18px;letter-spacing:1px;color:#000;font-weight:500;text-align:center}.FooterCol1{flex:1;height:250px;margin-bottom:20px}.FooterCol1:last-child{margin-right:0}.FooterMovil{margin-top:55px}.FooterContainer{flex-wrap:wrap;height:auto;width:auto;align-items:center;justify-content:center;text-align:center}.FooterCopy{height:100px;margin-top:10%;background-color:#1c1c1c}.CopyText{font-size:10px;letter-spacing:2px;color:#595959;font-weight:300}.FooterLogo{font-size:48px;line-height:30px;color:#7b6c63;font-weight:400;font-family:"Oleo Script";margin-top:15px;margin-left:10px;text-align:center}.FooterDates,.FooterTexts{width:272px;text-align:left;margin-left:10px}.FooterText{height:250px;font-size:10px;letter-spacing:1px;line-height:24px;color:#929292;font-family:Raleway;margin-top:10px;margin-left:10px}.FooterSubtitles{font-size:18px;letter-spacing:2px;line-height:25px;color:#c2c2c2;font-family:Raleway;margin-left:10px}.FooterDates{height:55px;font-size:10px;letter-spacing:1px;line-height:20px;color:#5f5f5f;font-family:Raleway}.FooterTexts,.FooterTweets{letter-spacing:1px;line-height:25px;font-family:Raleway}.FooterTexts{height:34px;font-size:12px;color:#929292}.FooterLine{opacity:.102;width:300px;height:1px;margin-left:10px;background-color:#fff}.FooterTweets{font-size:10px;color:#5f5f5f}.RecentsPost{margin-top:0;margin-bottom:10px}}.focus\:outline-none:focus{outline:transparent solid 2px;outline-offset:2px}@media (min-width:768px){.md\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}}@media (min-width:1024px){.lg\:flex{display:flex}.lg\:hidden{display:none}}
+a,
+hr {
+  color: inherit;
+}
+progress,
+sub,
+sup {
+  vertical-align: baseline;
+}
+blockquote,
+body,
+dd,
+dl,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+menu,
+ol,
+p,
+pre,
+ul {
+  margin: 0;
+}
+fieldset,
+legend,
+menu,
+ol,
+ul {
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  border: 0 solid currentColor;
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+::after,
+::before {
+  --tw-content: "";
+}
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+body {
+  line-height: inherit;
+}
+hr {
+  height: 0;
+  border-top-width: 1px;
+}
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  text-decoration: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+:-moz-focusring {
+  outline: auto;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+}
+textarea {
+  resize: vertical;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+[role="button"],
+button {
+  cursor: pointer;
+}
+:disabled {
+  cursor: default;
+}
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+.hidden,
+[hidden] {
+  display: none;
+}
+.BlogTitle,
+.flex {
+  display: flex;
+}
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.ml-20 {
+  margin-left: 5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.mt-7 {
+  margin-top: 1.75rem;
+}
+.h-16 {
+  height: 4rem;
+}
+.w-full {
+  width: 100%;
+}
+.max-w-6xl {
+  max-width: 72rem;
+}
+.max-w-full {
+  max-width: 100%;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.bg-colorNavBar {
+  background-color: #303030;
+}
+.p-4 {
+  padding: 1rem;
+}
+.BlogCols,
+.text-left {
+  text-align: left;
+}
+.BlogText,
+.BlogTitle,
+.ColFormat,
+.LineBlog,
+.Services-Descrip,
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.Navbar-text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Raleway;
+}
+.BannerSubtitle,
+.BannerText,
+.ButtonContend {
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.Navbar-brand-logo {
+  font-size: 48px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Oleo Script";
+}
+.BannerSubtitle,
+.BannerText {
+  font-family: Raleway;
+}
+.NavRectangle {
+  width: 41px;
+  height: 5px;
+  background-color: #7b6b63;
+}
+.BannerSubtitle {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.BannerText {
+  font-size: 66px;
+  line-height: 75px;
+}
+.BannerText span {
+  color: gray;
+}
+.ButtonBanner {
+  opacity: 0.5;
+  width: 264px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.386);
+}
+.ButtonBanner:hover {
+  background-color: rgba(255, 255, 255, 0.10196078431372549);
+  border: 2px solid #fff;
+}
+.ButtonContend {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: Raleway;
+  opacity: 1.5;
+}
+.Services-Descrip,
+.Services-Subtitle,
+.Services-Text,
+.ServicesTitle {
+  letter-spacing: 1px;
+  font-family: Raleway;
+}
+.ButtonDownload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerText {
+  margin-left: 350px;
+}
+.hero-section {
+  background-image: url("../public/img/banner-3.png");
+  background-size: auto 770px;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 770px;
+  overflow: hidden;
+
+  transition: opacity 0.5s ease-out;
+
+ 
+}
+.homepage-blog,
+.homepage-services {
+  text-align: center;
+  align-items: center;
+}
+.ServicesTitle {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #7b6c63;
+  font-weight: 600;
+}
+.Services-Descrip {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+}
+.Services-Subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #363636;
+}
+.Services-Text {
+  height: 104px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #949494;
+}
+.BlogTitle,
+.iconServices {
+  letter-spacing: 2px;
+  color: #7b6c63;
+  text-transform: uppercase;
+}
+.iconServices {
+  font-size: 30px;
+  line-height: 17px;
+  font-family: "Font Awesome";
+}
+.BlogTitle {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: Raleway;
+  flex-direction: column;
+  align-items: center;
+}
+.Blog-Art-Text,
+.Blog-Art-Title,
+.Blog-Date,
+.BlogText {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-family: Raleway;
+}
+.LineBlog {
+  width: 76px;
+  height: 6px;
+  background-color: #7b6c63;
+  align-items: center;
+}
+.BlogText {
+  font-size: 18px;
+  color: #212121;
+}
+.Blog-Date {
+  font-size: 16px;
+  color: #7b6c63;
+  font-weight: 500;
+}
+.Blog-Art-Title {
+  font-size: 24px;
+  color: #212121;
+}
+.Blog-Art-Text {
+  font-size: 16px;
+  color: #949494;
+}
+.ImgFormat {
+  width: 474px;
+  height: 270px;
+  background-color: #ebebeb;
+}
+.ColFormatBlogs {
+  max-width: 550px;
+}
+.homepage-contact {
+  height: 604px;
+  background-color: #f5f5f5;
+}
+.ContactTitle {
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #7b6c63;
+  font-weight: 600;
+  font-family: Raleway;
+  text-align: center;
+}
+.ContactText {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  color: #5b5b5b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+.ButtonTextContact,
+.CopyText {
+  line-height: 25px;
+  font-family: Raleway;
+}
+.ContactName {
+  width: 370px;
+  height: 4px;
+  background-color: #242424;
+}
+.FormFormat {
+  width: 370px;
+  border: 0;
+  background-color: #f5f5f5;
+}
+.ContactBar,
+.ContactEmail,
+.ContactMessage {
+  background-color: #242424;
+}
+.ContactEmail {
+  width: 371px;
+  height: 4px;
+}
+.ContactBar,
+.FormantMessage {
+  width: 779px;
+}
+.ContactMessage {
+  width: 779px;
+  height: 4px;
+}
+.ContactBar {
+  height: 1px;
+}
+.ButtonContact,
+.ButtonContact:hover {
+  width: 170px;
+  height: 45px;
+  background-color: rgba(0, 192, 240, 0);
+}
+.ButtonContact:hover {
+  border: 2px solid #000;
+}
+.ButtonTextContact {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+}
+.FooterContainer {
+  height: 410px;
+  background-color: #222;
+}
+.FooterCopy {
+  height: 70px;
+  background-color: #1c1c1c;
+}
+.CopyText {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #595959;
+  font-weight: 300;
+}
+.FooterLogo {
+  width: 272px;
+  font-size: 48px;
+  line-height: 30px;
+  color: #7b6c63;
+  font-weight: 400;
+  font-family: "Oleo Script";
+}
+.FooterText {
+  width: 250px;
+  height: 273px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  color: #929292;
+  font-family: Raleway;
+}
+.FooterDates,
+.FooterTexts {
+  width: 272px;
+  text-align: left;
+}
+.FooterSubtitles {
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #c2c2c2;
+  font-family: Raleway;
+}
+.FooterDates {
+  height: 55px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #5f5f5f;
+  font-family: Raleway;
+}
+.FooterTexts,
+.FooterTweets {
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-family: Raleway;
+}
+.FooterTexts {
+  height: 34px;
+  font-size: 14px;
+  color: #929292;
+}
+.FooterLine {
+  opacity: 0.102;
+  width: 268px;
+  height: 1px;
+  background-color: #fff;
+}
+.FooterTweets {
+  font-size: 10px;
+  color: #5f5f5f;
+}
+.Navbar-toggler {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.icon-menu {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("../public/img/menu.png");
+  background-size: cover;
+}
+@media screen and (max-width: 550px) {
+  .BlogTitle,
+  .ContactTitle,
+  .FooterDates,
+  .FooterSubtitles,
+  .Services-Subtitle,
+  .ServicesTitle,
+  .iconServices {
+    text-transform: uppercase;
+  }
+  .BlogText,
+  .BlogTitle,
+  .ColFormat,
+  .LineBlog,
+  .Services-Descrip {
+    text-align: center;
+  }
+  .Navbar-text {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+  }
+  .BannerSubtitle,
+  .BannerText,
+  .ButtonContend {
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .NavRectangle {
+    display: none;
+  }
+  .Navbar-text.active {
+    display: block;
+  }
+  .BannerSubtitle {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Raleway;
+    margin-top: 10px;
+  }
+  .BannerText {
+    font-size: 20px;
+    line-height: 75px;
+    font-family: Raleway;
+  }
+  .BannerText span {
+    color: gray;
+  }
+  .ButtonBanner {
+    opacity: 0.5;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.386);
+  }
+  .ButtonBanner:hover {
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    border: 2px solid #fff;
+  }
+  .ButtonContend {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Raleway;
+    opacity: 1.5;
+  }
+  .Services-Descrip,
+  .Services-Subtitle,
+  .Services-Text,
+  .ServicesTitle {
+    letter-spacing: 1px;
+    font-family: Raleway;
+  }
+  .ButtonDownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .centerText {
+    margin-left: 30px;
+  }
+  .hero-section {
+    background-image: url("../public/img/banner-3.png");
+    background-size: auto 340px;
+    background-repeat: no-repeat;
+    max-height: 300px;
+  }
+  .BannerMovil {
+    align-items: start;
+  }
+  .homepage-blog,
+  .homepage-services {
+    text-align: center;
+    align-items: center;
+  }
+  .ServicesTitle {
+    font-size: 24px;
+    line-height: 30px;
+    color: #7b6c63;
+    font-weight: 600;
+  }
+  .Services-Descrip {
+    font-size: 12px;
+    line-height: 30px;
+    color: #000;
+  }
+  .ServicesCols {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Services-Subtitle {
+    font-size: 14px;
+    line-height: 30px;
+    color: #363636;
+  }
+  .Services-Text {
+    height: 104px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #949494;
+  }
+  .BlogTitle,
+  .iconServices {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #7b6c63;
+  }
+  .iconServices {
+    line-height: 17px;
+    font-family: "Font Awesome";
+  }
+  .BlogTitle {
+    line-height: 48px;
+    font-weight: 600;
+    font-family: Raleway;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Blog-Art-Text,
+  .Blog-Art-Title,
+  .Blog-Date,
+  .BlogText {
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: Raleway;
+  }
+  .LineBlog {
+    width: 76px;
+    height: 6px;
+    background-color: #7b6c63;
+    align-items: center;
+  }
+  .ContactBar,
+  .FormFormat,
+  .FormantMessage,
+  .ImgFormat {
+    width: 300px;
+  }
+  .BlogText {
+    font-size: 14px;
+    color: #212121;
+  }
+  .Blog-Art-Title,
+  .Blog-Date {
+    font-size: 16px;
+  }
+  .Blog-Date {
+    color: #7b6c63;
+    font-weight: 500;
+  }
+  .Blog-Art-Title {
+    color: #212121;
+  }
+  .Blog-Art-Text {
+    font-size: 14px;
+    color: #949494;
+  }
+  .BlogCols {
+    text-align: left;
+  }
+  .MovTextLeft {
+    text-align: start;
+  }
+  .ImgFormat {
+    height: auto;
+    background-color: #ebebeb;
+  }
+  .ColFormatBlogs {
+    max-width: 550px;
+    margin: 10px;
+  }
+  .Email,
+  .FooterCol1:first-child {
+    margin-left: 0;
+  }
+  .homepage-contact {
+    height: 500px;
+    background-color: #f5f5f5;
+  }
+  .Email {
+    margin-top: 15px;
+  }
+  .ContactTitle {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #7b6c63;
+    font-weight: 600;
+    font-family: Raleway;
+    text-align: center;
+  }
+  .ContactText {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #5b5b5b;
+    font-weight: 400;
+    font-family: "Open Sans";
+  }
+  .ButtonTextContact,
+  .CopyText {
+    line-height: 25px;
+    font-family: Raleway;
+  }
+  .container-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ContactEmail,
+  .ContactMessage,
+  .ContactName {
+    width: 300px;
+    height: 4px;
+    background-color: #242424;
+  }
+  .FormFormat {
+    border: 0;
+    background-color: #f5f5f5;
+  }
+  .ContactBar {
+    height: 1px;
+    background-color: #242424;
+  }
+  .ButtonContact,
+  .ButtonContact:hover {
+    width: 170px;
+    height: 45px;
+    background-color: rgba(0, 192, 240, 0);
+  }
+  .Message {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ButtonContact:hover {
+    border: 2px solid #000;
+  }
+  .ButtonTextContact {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+  }
+  .FooterCol1 {
+    flex: 1;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .FooterCol1:last-child {
+    margin-right: 0;
+  }
+  .FooterMovil {
+    margin-top: 55px;
+  }
+  .FooterContainer {
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    background-color: #222;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .FooterCopy {
+    height: 70px;
+    background-color: #1c1c1c;
+  }
+  .CopyText {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #595959;
+    font-weight: 300;
+  }
+  .FooterLogo {
+    font-size: 48px;
+    line-height: 30px;
+    color: #7b6c63;
+    font-weight: 400;
+    font-family: "Oleo Script";
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .FooterDates,
+  .FooterText {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .FooterText {
+    width: 250px;
+    height: 273px;
+    line-height: 24px;
+    color: #929292;
+    font-family: Raleway;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .FooterDates,
+  .FooterTexts {
+    width: 272px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .FooterSubtitles {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #c2c2c2;
+    font-family: Raleway;
+    margin-left: 10px;
+  }
+  .FooterDates {
+    height: 55px;
+    line-height: 20px;
+    color: #5f5f5f;
+    font-family: Raleway;
+  }
+  .FooterTexts,
+  .FooterTweets {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-family: Raleway;
+  }
+  .FooterTexts {
+    height: 34px;
+    color: #929292;
+  }
+  .FooterLine {
+    opacity: 0.102;
+    width: 300px;
+    height: 1px;
+    margin-left: 10px;
+    background-color: #fff;
+  }
+  .FooterTweets {
+    color: #5f5f5f;
+  }
+  .RecentsPost {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 901px) {
+  .BlogTitle,
+  .ContactTitle,
+  .FooterDates,
+  .FooterSubtitles {
+    text-transform: uppercase;
+  }
+  .Navbar-text.active,
+  .icon-menu {
+    display: block;
+  }
+  .BlogText,
+  .BlogTitle,
+  .LineBlog {
+    text-align: center;
+  }
+  .Navbar-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  .icon-menu {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../public/img/menu.png");
+    background-size: cover;
+  }
+  .Navbar-text {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    margin-right: 10px;
+  }
+  .BannerSubtitle,
+  .BannerText,
+  .ButtonContend {
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: Raleway;
+    text-transform: uppercase;
+  }
+  .NavRectangle {
+    display: none;
+  }
+  .BannerSubtitle {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  .BannerText {
+    font-size: 20px;
+    line-height: 75px;
+  }
+  .BannerText span {
+    color: gray;
+  }
+  .ButtonBanner {
+    opacity: 0.5;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.386);
+  }
+  .ButtonBanner:hover {
+    background-color: rgba(255, 255, 255, 0.10196078431372549);
+    border: 2px solid #fff;
+  }
+  .ButtonContend {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 1.5;
+  }
+  .ButtonDownload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .centerText {
+    margin-left: 30px;
+  }
+  .Email,
+  .FooterCol1:first-child {
+    margin-left: 0;
+  }
+  .hero-section {
+    background-image: url("../public/img/banner-3.png");
+    background-size: auto 340px;
+    background-repeat: no-repeat;
+    max-height: 300px;
+  }
+  .BannerMovil {
+    align-items: start;
+  }
+  .BlogTitle {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #7b6c63;
+    font-weight: 600;
+    font-family: Raleway;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Blog-Art-Text,
+  .Blog-Art-Title,
+  .Blog-Date,
+  .BlogText {
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: Raleway;
+  }
+  .LineBlog {
+    width: 76px;
+    height: 6px;
+    background-color: #7b6c63;
+    align-items: center;
+  }
+  .BlogText {
+    font-size: 18px;
+    color: #212121;
+  }
+  .Blog-Art-Title,
+  .Blog-Date {
+    font-size: 16px;
+  }
+  .Blog-Date {
+    color: #7b6c63;
+    font-weight: 500;
+  }
+  .Blog-Art-Title {
+    color: #212121;
+  }
+  .Blog-Art-Text {
+    font-size: 14px;
+    color: #949494;
+  }
+  .BlogCols {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homepage-blog {
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .ImgFormat {
+    width: 474px;
+    height: 270px;
+    background-color: #ebebeb;
+  }
+  .ContactBar,
+  .FormFormat,
+  .FormantMessage {
+    width: 500px;
+  }
+  .ColFormatBlogs {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homepage-contact {
+    height: 500px;
+    background-color: #f5f5f5;
+  }
+  .Email {
+    margin-top: 15px;
+  }
+  .ContactTitle {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #7b6c63;
+    font-weight: 600;
+    font-family: Raleway;
+    text-align: center;
+  }
+  .ContactText {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #5b5b5b;
+    font-weight: 400;
+    font-family: "Open Sans";
+  }
+  .ButtonTextContact,
+  .CopyText {
+    line-height: 25px;
+    font-family: Raleway;
+  }
+  .container-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ContactEmail,
+  .ContactMessage,
+  .ContactName {
+    width: 500px;
+    height: 4px;
+    background-color: #242424;
+  }
+  .FormFormat {
+    border: 0;
+    background-color: #f5f5f5;
+  }
+  .ContactBar {
+    height: 1px;
+    background-color: #242424;
+  }
+  .ButtonContact,
+  .ButtonContact:hover {
+    width: 170px;
+    height: 45px;
+    background-color: rgba(0, 192, 240, 0);
+  }
+  .Message {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .FooterContainer,
+  .footer {
+    background-color: #222;
+  }
+  .ButtonContact:hover {
+    border: 2px solid #000;
+  }
+  .ButtonTextContact {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+  }
+  .FooterCol1 {
+    flex: 1;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .FooterCol1:last-child {
+    margin-right: 0;
+  }
+  .FooterMovil {
+    margin-top: 55px;
+  }
+  .FooterContainer {
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .FooterCopy {
+    height: 100px;
+    margin-top: 10%;
+    background-color: #1c1c1c;
+  }
+  .CopyText {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #595959;
+    font-weight: 300;
+  }
+  .FooterLogo {
+    font-size: 48px;
+    line-height: 30px;
+    color: #7b6c63;
+    font-weight: 400;
+    font-family: "Oleo Script";
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .FooterDates,
+  .FooterTexts {
+    width: 272px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .FooterText {
+    height: 250px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #929292;
+    font-family: Raleway;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .FooterSubtitles {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #c2c2c2;
+    font-family: Raleway;
+    margin-left: 10px;
+  }
+  .FooterDates {
+    height: 55px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #5f5f5f;
+    font-family: Raleway;
+  }
+  .FooterTexts,
+  .FooterTweets {
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-family: Raleway;
+  }
+  .FooterTexts {
+    height: 34px;
+    font-size: 12px;
+    color: #929292;
+  }
+  .FooterLine {
+    opacity: 0.102;
+    width: 300px;
+    height: 1px;
+    margin-left: 10px;
+    background-color: #fff;
+  }
+  .FooterTweets {
+    font-size: 10px;
+    color: #5f5f5f;
+  }
+  .RecentsPost {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+.focus\:outline-none:focus {
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+}
+@media (min-width: 768px) {
+  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+  .lg\:hidden {
+    display: none;
+  }
+}

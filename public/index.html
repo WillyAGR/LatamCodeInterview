@@ -298,8 +298,55 @@
     
 </body>
 
-  <script src="../public/index.js"></script>  
 
+
+  <script>
+   var images = [
+  "img/banner-1.png",
+  "img/banner-2.png",
+  "img/banner-3.png"
+];
+
+// Pre-carga de imágenes
+images.forEach(image => {
+  var img = new Image();
+  img.src = image;
+});
+
+var currentImage = 0;
+var heroSection = document.querySelector(".hero-section");
+heroSection.style.backgroundImage = "url('" + images[currentImage] + "')";
+
+function changeBackgroundImage() {
+  // Desvanecer la imagen actual
+  heroSection.style.opacity = 0;
+
+  // Cambiar la imagen una vez que la sección se haya desvanecido
+  setTimeout(function() {
+    currentImage++;
+    if (currentImage >= images.length) {
+      currentImage = 0;
+    }
+    heroSection.style.backgroundImage = "url('" + images[currentImage] + "')";
+    heroSection.style.opacity = 1;
+  }, 500); // Asegúrate de que esto coincida con el tiempo de transición en CSS
+}
+
+setInterval(changeBackgroundImage, 10000);
+
+
+  const navbarToggler = document.querySelector('.Navbar-toggler');
+  const navbarMenu = document.querySelector('.Navbar-text');
+  
+  navbarToggler.addEventListener('click', () => {
+    navbarMenu.classList.toggle('active');
+  });
+
+  
+
+  
+  
+  </script>
 
 
 </html>
